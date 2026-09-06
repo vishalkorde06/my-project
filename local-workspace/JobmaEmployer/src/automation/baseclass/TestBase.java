@@ -82,6 +82,10 @@ public class TestBase {
 	public WebDriver getDriver() {
 		return driver;
 	}
+	
+//	public WebDriver getDriver() {
+//		return driver;
+//	}
 
 	@BeforeClass
 	public static void setExtent() {
