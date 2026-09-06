@@ -16,9 +16,7 @@ import automation.excelread.ExcelUtils;
 
 public final class HomePage extends TestBase {
 
-	@FindBy(css = "shopify-forms-embed")
-	public WebElement ShopifyFormContainer;
-	
+
 	@FindBy(xpath = "//*[@id=\"email\"]")
 	public WebElement Email;
 
